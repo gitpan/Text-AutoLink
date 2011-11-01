@@ -1,21 +1,28 @@
---- 
-abstract: Automatically Linkfy
-author: 
-  - "Copyright (c) 2006-2007 Daisuke Maki <daisuke@endeworks.jp<gt>. "
+---
+abstract: 'Automatically Linkfy'
+author:
+  - 'Copyright (c) 2006-2007 Daisuke Maki <daisuke@endeworks.jp<gt>. '
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: Module::Install version 0.67
+generated_by: 'Module::Install version 1.01'
 license: perl
-meta-spec: 
-  url: http://module-build.sourceforge.net/META-spec-v1.3.html
-  version: 1.3
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
 name: Text-AutoLink
-no_index: 
-  directory: 
+no_index:
+  directory:
     - inc
     - t
-requires: 
+requires:
   HTML::TreeBuilder: 0
   Module::Pluggable: 0
   URI: 0
   perl: 5.6.0
-version: 0.03000
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/lestrrat/Text-AutoLink.git
+version: 0.04000
